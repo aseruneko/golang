@@ -1,0 +1,13 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var a, b, c int
+	var s string
+	fmt.Scan(&a, &b, &c, &s)
+	var ans string = fmt.Sprint(a+b+c) + " " + s
+	fmt.Println(ans)
+}
